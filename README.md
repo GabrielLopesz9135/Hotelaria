@@ -1,66 +1,39 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Entendido, aqui está uma versão do texto no formato de README do GitHub:
 
-## About Laravel
+Sistema de Hotelaria em Laravel
+Bem-vindo ao Sistema de Hotelaria desenvolvido em Laravel e PostgreSQL!
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Visão Geral do Projeto
+Este projeto é um sistema de hotelaria completo, oferecendo funcionalidades para gerenciar quartos, reservas e informações dos clientes. Desenvolvido utilizando o framework Laravel, a aplicação se destaca pela sua eficiência, usabilidade e pela integração de relacionamentos eloquentes para consultas rápidas e eficientes no banco de dados PostgreSQL.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Funcionalidades Principais
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Quartos:
+• Listar Todos os quartos disponíveis para reserva
+• Listar Todos os quartos que estão reservados em uma data passado por parâmetro.
+• Organização estruturada de dados utilizando relacionamentos eloquentes do Laravel.
 
-## Learning Laravel
+Reservas:
+• Facilidade na recuperação de informações relacionadas a quartos específicos ou histórico de reservas de clientes baseado nos relacionamentos eloquentes do Laravel.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+Laravel: Framework PHP que oferece uma estrutura robusta e elegante para o desenvolvimento ágil de aplicações web.
+PostgreSQL: Banco de dados relacional escolhido pela sua confiabilidade e capacidade de lidar com grandes volumes de dados.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Como Iniciar
 
-## Laravel Sponsors
+Clonar o Repositório:
+git clone https://github.com/seu-usuario/sistema-hotelaria-laravel.git
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+Configurar o Ambiente:
+Configure o arquivo .env com as informações do banco de dados PostgreSQL.
 
-### Premium Partners
+Instalar Dependências:
+composer install
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+Migrar o Banco de Dados:
+php artisan migrate
 
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Servir a Aplicação:
+php artisan serve
