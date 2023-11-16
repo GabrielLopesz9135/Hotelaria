@@ -1,6 +1,3 @@
-
-Entendido, aqui está uma versão do texto no formato de README do GitHub:
-
 Sistema de Hotelaria em Laravel
 Bem-vindo ao Sistema de Hotelaria desenvolvido em Laravel e PostgreSQL!
 
